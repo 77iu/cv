@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    max-width: 1920px;
+    text-decoration: none;
+}
+body{
+    max-width: 1920px;
+}
+a{
+    color: black;
+    background-color: rgba(100,149,237,0.2);
+    border-radius: 4px;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: cornflowerblue;
+    padding:0 20px ;
+    color: antiquewhite;
+    border: 1px solid cornflowerblue;
+}
+.visitanos{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 80px;
+   
+}
+.pagina__regest{
+    background-color: rgba(100,149,237,0.2);
+    padding: 0 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+   
+}
+.pagina__regest:hover{
+    background-color: cornflowerblue;
+    padding:0 20px ;
+    color: antiquewhite;
+    border: 1px solid cornflowerblue;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+.grid{
+    
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.portada{
+    width:80%;
+    margin:auto;
+    display:block;
+   border-radius: 50%;
+
+}
+
+.columna__izquierda{
+    background-image: url(images/paso_03.jpg);
+    background-size: cover;
+    background-color:rgba(240, 248, 255, 0);
+    border: 1px solid black;
+    margin: 5px 0 5px 5px; 
+    /* transform: scale(0.8);
+    position: relative;
+    bottom: -5%; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+.columna__centro{
+    background-color: rgb(240, 248, 255);
+    /* border: 1px solid black; */
+    /* margin: 5px 0 5px 5px; */
+    padding: 1px;
+    margin-bottom: 5px;
+    
+    
+   
+}
+
+
+.columna__derecha{
+    background-image: url(images/alameda_03.jpg);
+    background-size: cover;
+    /* transform: scale(0.8);
+    position: relative;
+    top: -5%; */
+   
+   
+     /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-color:rgba(240, 248, 255, 0);
+    border: 1px solid black;
+    margin: 5px 5px 5px 0;  
+}
+
+
+
+
+.titulos{
+    font-size: 0.8em;
+    background-color: rgba(145, 203, 250, 0.5);
+    padding: 5px;
+}
+p{
+    padding: 0.7em;
+    font-size: 0.7em;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    background-color: aliceblue;
+   
+}
+.nombres{
+    background-color: aliceblue;
+    font-size: 80%;/*15px*/
+    text-align: center;
+   padding-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+    
+}
+.apellido{
+    background-color: aliceblue;
+    font-size: 90%; /*25px*/
+    text-align: center;
+ margin-top: 0;
+ padding-top: 0;
+ padding-bottom: 20px;
+ letter-spacing: 5px;
+}
+.cat{
+    background-color: aliceblue;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+    
+}
+.informacion{
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 30px;
+    padding: 5px;
+}
+
+span{
+    background-color: aliceblue;
+    font-size: 0.7em;
+    padding: 5px;
+    margin: 0;
+    
+}
+.fin{
+    margin-bottom: 5px;
+}
+.fin01 {
+    margin-bottom: 5px;
+    text-align: center;
+    
+
+}
+.info{
+    margin-top: 0;
+    background-color:aliceblue;
+    padding: 1px  
+}
+.comunicacion{
+    padding: 0 5px;
+}
+/* .logo{
+    background-color: aliceblue;
+    color: blue;
+} */
+/* a{
+    text-decoration: none;
+    background-color: aliceblue;
+    
+} */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    }
+    .obras{
+        
+        font-size: 0.7em;
+        text-align: right;
+        padding: 5px;
+        margin-top: 5px;
+        
+        
+    }
+    .intro{
+        font-size: 50%;
+    }
+
