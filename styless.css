@@ -9,6 +9,13 @@
 }
 body{
     max-width: 1920px;
+    opacity: 0;
+    animation: cuerpo 2s linear forwards;
+}
+
+@keyframes cuerpo{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 a{
     color: black;
